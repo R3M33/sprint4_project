@@ -8,7 +8,7 @@ def main():
     st.write('This is a dataframe of Cars being sold. It includes the price,n\model by year, model my type, condition of car, cylinders the car runs on, type of fuel it uses, the amount of miles driven already, type of transmission, how many days its listed to be sold, date posted, paint of car and type of car.')
 
     # Load data
-    cars = pd.read_csv('vehicles_us.csv')  # Assuming 'vehicles_us.csv' is in the same directory as your script
+    cars = pd.read_csv('vehicles_us (1).csv')  # Assuming 'vehicles_us.csv' is in the same directory as your script
 
     # Create a checkbox to filter data
     new_models = st.checkbox("Show only cars from 2013 or older")
