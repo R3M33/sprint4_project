@@ -1,7 +1,6 @@
-import streamlit as st
 import pandas as pd
 import plotly.express as px
-
+import streamlit as st
 def main():
     st.header('This project is a Car Sales Data Spreadsheet Evaluation')
     st.write('It is not a functional application yet. Under construction.')
