@@ -10,8 +10,8 @@ st.write('It includes the price, model by year, model my type, condition' \
           'type of transmission, how many days its been listed to be sold, date posted, paint of car and' \
           'type of car.') 
 
-st.write('The file contains no duplicates but does have alot of missing values in 'is_4wd' 'paint_color','\
-          'odometer', 'cylinders', and 'model_year'.)
+st.write('The file contains no duplicates but does have alot of missing values in is_4wd paint_color, \
+          odometer, cylinders, and model_year.')
 
 st.write('Conclusion: Based on the charts usually, the more recent a car was made the more you pay for it.')
 
