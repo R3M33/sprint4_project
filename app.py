@@ -5,10 +5,9 @@ import streamlit as st
 import plotly.express as px
 
 st.header('Introduction: This is a dataframe of Cars being sold.') 
-st.write('It includes the price, model by year, model my type, condition' \
-          'of car, cylinders the car runs on, type of fuel it uses, the amount of miles driven already,' \ 
-          'type of transmission, how many days its been listed to be sold, date posted, paint of car and' \
-          'type of car.') 
+st.write('It includes the price, model by year, model my type, condition,' 
+st.write('of car, cylinders the car runs on, type of fuel it uses, the amount of miles driven already) 
+st.write('type of transmission, how many days its been listed to be sold, date posted, paint of car and type of car.') 
 
 st.write('The file contains no duplicates but does have alot of missing values in is_4wd paint_color, \
           odometer, cylinders, and model_year.')
