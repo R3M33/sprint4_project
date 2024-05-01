@@ -48,5 +48,3 @@ with col2:
     fig2.update_layout(title = 'Car Sales Scatter Plot')
     st.plotly_chart(fig2)
 
-if __name__ == "__main__":
-    main()
