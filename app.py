@@ -15,7 +15,7 @@ st.write('The file contains no duplicates but does have alot of missing values i
 st.write('Conclusion: Based on the charts usually, the more recent a car was made the more you pay for it.')
 
 # Load data
-cars = pd.read_csv(r'C:\Users\tonyr\steve\repo2\vehicles_us (1).csv')
+cars = pd.read_csv('vehicles_us (1).csv')
 
 # Create a checkbox to filter data
 new_models = st.checkbox("Show only cars from 2013 or older")
